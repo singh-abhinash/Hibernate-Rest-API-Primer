@@ -91,4 +91,10 @@ Session (Instance of Database Interaction):
 Quick Recap:
 	SessionFactory: One per application, creates Session objects, thread-safe.
 	Session: Created for each database interaction, not thread-safe, performs actual database operations.
+	
+++++++++++++++++++++++++++++++++++++++++++++
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Hibernate is self sufficient to create table in database. We just need to put @Entity annotation on top of the 
+class and inside that put the table name like 
  */
