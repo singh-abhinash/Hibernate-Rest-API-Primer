@@ -25,6 +25,9 @@
 		<!-- Below property will automatically create the table if it is not present and if table is present then 
 		this property is capable to update, delete etc database schema. -->
 		<property name="hbm2ddl.auto">update</property>
+		
+		<!-- Mapped entities -->
+        <mapping class="LearningHibernate.HibernateProject.UsersEntity"/>
  
     </session-factory>
 </hibernate-configuration>
