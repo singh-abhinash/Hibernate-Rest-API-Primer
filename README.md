@@ -9,9 +9,9 @@ This repository demonstrates the integration of Hibernate ORM with a RESTful API
 
 ## Technologies:
 * Java
+* Spring Boot
 * Hibernate ORM
 * REST API
-* Spring Boot
 
 ## Configuration Setup:
 * Hibernate: 
