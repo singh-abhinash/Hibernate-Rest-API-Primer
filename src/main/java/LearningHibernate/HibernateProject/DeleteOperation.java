@@ -44,3 +44,17 @@ public class DeleteOperation {
 		
 	}
 }
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/**
+ * In Hibernate, a transaction represents a single unit of work that is either fully completed or fully rolled back 
+ * if something goes wrong.
+ * 
+ * Here’s what a transaction does in simple terms:
+ * -> Begin Transaction: You start a transaction before making changes (like saving, updating, or deleting) in the 
+ * database.
+ * -> Make Changes: Perform the operations (insert, update, delete) you need within the transaction.
+ * -> Commit: When all operations are successful, you commit the transaction to save the changes permanently in the 
+ * database.
+ * -> Rollback: If there’s an error, you can rollback the transaction to undo any changes, keeping the database in a 
+ * consistent state.
+ */

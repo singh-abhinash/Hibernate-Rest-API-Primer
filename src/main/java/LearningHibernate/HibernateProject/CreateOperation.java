@@ -74,7 +74,8 @@ Key Differences:
 
 SessionFactory (Factory for Sessions):
 	Purpose: It is responsible for creating and managing Session objects.
-	Lifecycle: It is a heavyweight object created once per application. It is typically created when the application starts and destroyed when the application shuts down.
+	Lifecycle: It is a heavyweight object created once per application. It is typically created when the application 
+	starts and destroyed when the application shuts down.
 	Thread-Safe: Multiple threads can share a single SessionFactory instance because it is designed to be 
 	thread-safe.
 	Example Use: You use SessionFactory to obtain Session instances.

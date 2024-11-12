@@ -5,10 +5,14 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+// You apply @Entity to a class to indicate that the class represents a database table.
 @Entity(name = "users")
+// You use @Table to specify the name of the database table (if it’s different from the class name) or other 
+//table-related settings (like schema or catalog).
 @Table(name = "users")
 public class UsersEntity {
 	
+	//Primary key
 	@Id
 	@Column(name = "user_id")
 	int userId;
